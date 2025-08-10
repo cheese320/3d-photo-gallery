@@ -66,10 +66,24 @@
 ## 文件结构
 
 ```
-windsurf-project/
+3d-photo-gallery/
 ├── index.html          # 主页面
 ├── styles.css          # 样式文件
 ├── script.js           # JavaScript逻辑
+├── images/             # 本地图片目录
+│   ├── forest.jpg      # 森林晨曦
+│   ├── snow.jpg        # 雪山静谧
+│   ├── ocean.jpg       # 海浪轻抚
+│   ├── deer.jpg        # 小鹿漫步
+│   ├── stream.jpg      # 溪水潺潺
+│   └── stars.jpg       # 星空璀璨
+├── audio/              # 本地音频目录
+│   ├── forest.mp3      # 森林鸟鸣声
+│   ├── snow.mp3        # 雪花飘落声
+│   ├── ocean.mp3       # 海浪声
+│   ├── birds.mp3       # 鸟儿歌唱声
+│   ├── stream.mp3      # 溪流声
+│   └── night.mp3       # 夜晚虫鸣声
 └── README.md           # 说明文档
 ```
 
@@ -82,10 +96,11 @@ windsurf-project/
 
 ## 特色亮点
 
-- 🌿 **自然主题**：绿色渐变背景，金色装饰元素
+- 🌿 **自然主题**：蓝橙配色方案，优雅视觉效果
 - 🎭 **视觉反馈**：播放音频时的脉冲动画效果
 - 🔊 **音频通知**：播放时显示声波动画
 - 📱 **移动友好**：完全响应式设计
 - ♿ **无障碍支持**：键盘导航和焦点管理
+- 💾 **本地资源**：所有图片和音频文件本地化，避免网络依赖
 
 享受这个沉浸式的自然之声体验吧！🌲🎵
