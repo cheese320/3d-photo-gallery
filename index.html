@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自然之声 - 3D照片画廊</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>自然之声</h1>
+            <p>探索大自然的美妙瞬间</p>
+        </header>
+
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <!-- 照片将通过JavaScript动态生成 -->
+            </div>
+            
+            <div class="navigation">
+                <button class="nav-btn prev-btn" id="prevBtn">‹</button>
+                <button class="nav-btn next-btn" id="nextBtn">›</button>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="audio-controls">
+                <button id="playAudioBtn" class="control-btn">🔊 播放音频</button>
+                <div class="audio-info" id="audioInfo"></div>
+            </div>
+            
+            <div class="upload-controls">
+                <button id="uploadPhotoBtn" class="control-btn">📷 上传照片</button>
+                <button id="uploadAudioBtn" class="control-btn">🎵 上传音频</button>
+            </div>
+        </div>
+
+        <div class="photo-info">
+            <h3 id="photoTitle">森林晨曦</h3>
+            <p id="photoDescription">清晨的第一缕阳光穿过茂密的森林，唤醒沉睡的大地</p>
+        </div>
+
+        <!-- 隐藏的文件输入 -->
+        <input type="file" id="photoInput" accept="image/*" style="display: none;">
+        <input type="file" id="audioInput" accept="audio/*" style="display: none;">
+    </div>
+
+    <!-- 音频播放通知 -->
+    <div class="audio-notification" id="audioNotification">
+        <div class="notification-content">
+            <div class="sound-wave">
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+            </div>
+            <span class="notification-text">正在播放自然之声...</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
